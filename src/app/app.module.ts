@@ -3,18 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Lab1Component } from './lab1/lab1.component';
-import { RootComponent } from './root/root.component';
-import { AddRecordComponent } from './add-record/add-record.component';
-import { ResultsComponent } from './results/results.component';
+import { LayoutComponent } from './layout/layout.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { AddRecordComponent } from './layout/add-record/add-record.component';
+import { ResultComponent } from './layout/result/result.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Lab1Component,
-    RootComponent,
+    LayoutComponent,
+    HeaderComponent,
+    FooterComponent,
     AddRecordComponent,
-    ResultsComponent
+    ResultComponent
   ],
   imports: [
     BrowserModule,
